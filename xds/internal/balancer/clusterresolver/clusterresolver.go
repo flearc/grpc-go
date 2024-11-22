@@ -39,8 +39,8 @@ import (
 	"google.golang.org/grpc/serviceconfig"
 	"google.golang.org/grpc/xds/internal/balancer/outlierdetection"
 	"google.golang.org/grpc/xds/internal/balancer/priority"
-	"google.golang.org/grpc/xds/internal/xdsclient"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"google.golang.org/grpc/xds/xdsclient"
+	"google.golang.org/grpc/xds/xdsclient/xdsresource"
 )
 
 // Name is the name of the cluster_resolver balancer.

@@ -19,7 +19,7 @@ package cdsbalancer
 import (
 	"context"
 
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"google.golang.org/grpc/xds/xdsclient/xdsresource"
 )
 
 // clusterWatcher implements the xdsresource.ClusterWatcher interface, and is

@@ -22,7 +22,7 @@ import (
 	"sync"
 
 	igrpclog "google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"google.golang.org/grpc/xds/xdsclient/xdsresource"
 )
 
 // rdsHandler handles any RDS queries that need to be started for a given server

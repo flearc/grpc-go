@@ -34,8 +34,8 @@ import (
 	"google.golang.org/grpc/internal/xds/bootstrap"
 	"google.golang.org/grpc/resolver"
 	rinternal "google.golang.org/grpc/xds/internal/resolver/internal"
-	"google.golang.org/grpc/xds/internal/xdsclient"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"google.golang.org/grpc/xds/xdsclient"
+	"google.golang.org/grpc/xds/xdsclient/xdsresource"
 )
 
 // Scheme is the xDS resolver's scheme.

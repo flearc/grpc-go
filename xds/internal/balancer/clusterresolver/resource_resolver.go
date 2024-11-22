@@ -24,7 +24,7 @@ import (
 
 	"google.golang.org/grpc/internal/grpclog"
 	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"google.golang.org/grpc/xds/xdsclient/xdsresource"
 )
 
 // resourceUpdate is a combined update from all the resources, in the order of

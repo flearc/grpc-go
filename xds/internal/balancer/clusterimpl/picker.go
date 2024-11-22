@@ -28,7 +28,7 @@ import (
 	"google.golang.org/grpc/internal/stats"
 	"google.golang.org/grpc/internal/wrr"
 	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/xds/internal/xdsclient"
+	"google.golang.org/grpc/xds/xdsclient"
 )
 
 // NewRandomWRR is used when calculating drops. It's exported so that tests can

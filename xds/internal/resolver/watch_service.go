@@ -21,7 +21,7 @@ package resolver
 import (
 	"context"
 
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"google.golang.org/grpc/xds/xdsclient/xdsresource"
 )
 
 type listenerWatcher struct {

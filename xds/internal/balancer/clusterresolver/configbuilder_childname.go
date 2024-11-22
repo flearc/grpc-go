@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"google.golang.org/grpc/xds/xdsclient/xdsresource"
 )
 
 // nameGenerator generates a child name for a list of priorities (each priority

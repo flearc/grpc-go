@@ -41,8 +41,8 @@ import (
 	"google.golang.org/grpc/serviceconfig"
 	xdsinternal "google.golang.org/grpc/xds/internal"
 	"google.golang.org/grpc/xds/internal/balancer/loadstore"
-	"google.golang.org/grpc/xds/internal/xdsclient"
-	"google.golang.org/grpc/xds/internal/xdsclient/load"
+	"google.golang.org/grpc/xds/xdsclient"
+	"google.golang.org/grpc/xds/xdsclient/load"
 )
 
 const (

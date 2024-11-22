@@ -32,7 +32,7 @@ import (
 	"google.golang.org/grpc/xds/internal/balancer/outlierdetection"
 	"google.golang.org/grpc/xds/internal/balancer/priority"
 	"google.golang.org/grpc/xds/internal/balancer/wrrlocality"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"google.golang.org/grpc/xds/xdsclient/xdsresource"
 )
 
 const million = 1000000

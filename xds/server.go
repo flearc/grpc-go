@@ -35,8 +35,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 	"google.golang.org/grpc/xds/internal/server"
-	"google.golang.org/grpc/xds/internal/xdsclient"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"google.golang.org/grpc/xds/xdsclient"
+	"google.golang.org/grpc/xds/xdsclient/xdsresource"
 )
 
 const serverPrefix = "[xds-server %p] "
